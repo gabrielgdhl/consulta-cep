@@ -18,3 +18,12 @@ h1{
     font-size: 20px;
     margin-right: 10px;
 }
+
+.header-page{
+    text-align: center;
+}
+
+#exibir-cep{
+    margin-top: 15px;
+    text-align: center;
+}
