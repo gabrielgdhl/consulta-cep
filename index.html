@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importações CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- Importações Javascript--->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <title>Minha página</title>
+</head>
+<body>
+
+    <div class="container">
+        <div style='border: 1px solid black; text-align: center;'>
+            <h1 class="title-container">Meu CEP</h1>
+            <input type="text" maxlength="8" id="cep">
+            <button type="button" class="btn btn-info" onclick="meuCep()">Buscar CEP</button>
+        </div>
+
+        <div id="exibir-cep">
+
+        </div>
+    </div>
+    
+</body>
+</html>
