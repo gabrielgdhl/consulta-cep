@@ -13,10 +13,7 @@ function meuCep(){
 function exibirCep(response){
     let cep = response;
 
-    $('#exibir-cep').append(`<h2>Cep: ${cep.cep}</h2>
-                              <h2>Cidade: ${cep.localidade}</h2>
-                              <h2>Bairro: ${cep.bairro}</h2>
-                              <h2>Rua: ${cep.logradouro}</h2>                      `)
+    $('#exibir-cep').append(`<h2>${cep.localidade}, ${cep.logradouro}, ${cep.bairro}</h2>`)
 
     
 }
